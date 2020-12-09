@@ -2,7 +2,7 @@ import pytesseract
 import cv2
 # pytesseract.pytesseract.tesseract_cmd="/usr/local/lib/python3.6/dist-packages/pytesseract/__init__.py"
 # reading the image
-image=cv2.imread("test.png")
+image=cv2.imread("hat.jpg")
 # converting it to the grey
 gray=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 # threshold
